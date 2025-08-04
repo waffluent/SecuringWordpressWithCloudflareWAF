@@ -1,6 +1,8 @@
 # Securing Wordpress With Cloudflare WAF
 Scripts to harden your Wordpress installation using Cloudflare.
 
+By bret@waffluent.com
+
 ### Nothing herein requires more than what's available in the Cloudflare Pro Plan ($20/month as of when I type this: August 2025).
 
 ## Origin Hiding using Cloudflare & WordPress HMAC Verification
