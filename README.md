@@ -262,7 +262,7 @@ The script blocks these requests as well.
 ## Limitations
 
 * Blocks all access to author and category archive pages, even for legitimate visitors.
-* If your theme or SEO strategy relies on author/category archive pages, you may need to whitelist certain requests.
+* If your theme or SEO strategy relies on author/category archive pages, you may need to allowlist certain requests.
 * Does not prevent enumeration via the WordPress REST API — that must be handled separately.
 
 ---
@@ -366,7 +366,7 @@ OUTBOUND [2025-08-04 14:32:11] URL=https://api.stripe.com/v1/charges HOST=api.st
 ## Benefits
 
 * **Full visibility** into external requests for auditing and compliance.
-* **Helps whitelist external API endpoints** in strict WAF environments.
+* **Helps allowlist external API endpoints** in strict WAF environments.
 * **Identifies misbehaving plugins** making unauthorized calls.
 * **DNS/IP verification** ensures the request isn’t being redirected to an unexpected host.
 
@@ -498,7 +498,7 @@ Location: https://yoursite.com/
 
 ## Notes
 
-* If you still want feeds for specific purposes (e.g., podcast syndication, internal API), you’ll need to **whitelist those endpoints** before this redirect runs.
+* If you still want feeds for specific purposes (e.g., podcast syndication, internal API), you’ll need to **allowlist those endpoints** before this redirect runs.
 * This only affects **built-in WordPress feed endpoints** — custom feed endpoints created by plugins may still work unless explicitly blocked.
 * Disabling feeds can impact SEO if your syndication strategy relies on them.
 
