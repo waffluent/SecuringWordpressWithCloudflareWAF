@@ -5,8 +5,6 @@ Scripts to harden your Wordpress installation using Cloudflare.
 
 ## Origin Hiding using Cloudflare & WordPress HMAC Verification
 
-## Overview
-
 This security mechanism uses a **shared secret** and **HMAC signatures** to ensure that requests reaching WordPress have passed through Cloudflare **without tampering or bypass**.
 It works in two parts:
 
