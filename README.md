@@ -269,8 +269,6 @@ The script blocks these requests as well.
 
 Enumeration attack primer: [https://m0n.co/enum](https://m0n.co/enum)
 
-Here’s a **README-style explanation** for the outbound HTTP logging hook you posted:
-
 ---
 
 # WordPress Outbound HTTP Call Logger with DNS & Client IP Resolution
