@@ -383,8 +383,6 @@ OUTBOUND [2025-08-04 14:32:11] URL=https://api.stripe.com/v1/charges HOST=api.st
 * **Security:** This script only logs; it doesn’t block. For blocking malicious destinations, you would need additional logic.
 * **Privacy:** Avoid logging sensitive data embedded in URLs (tokens, API keys) in production logs.
 
-Here’s a **README-style explanation** for your feed-disabling code:
-
 ---
 
 # WordPress Feed Access Disabler
