@@ -163,8 +163,6 @@ x-cf-pass: QWxhZGRpbjpvcGVuIHNlc2FtZQ==.1733424000.a3f19c2b
 * You can lower the timestamp window for stricter security.
 
 
-Here’s a **README-style explanation** of that script:
-
 ---
 
 # WordPress Author & Category Enumeration Blocker
